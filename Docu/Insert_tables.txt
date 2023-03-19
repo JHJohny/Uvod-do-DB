@@ -1,0 +1,116 @@
+/*CREATE TABLE Documents (
+	`doc_id` int AUTO_INCREMENT NOT NULL,
+	`doc_type` varchar(2),
+	`doc_name` varchar(17),
+	`start_date` date,
+	`end_date` date,
+	`created` datetime,
+	primary key(`doc_id`));
+*/
+/*
+*/
+/*CREATE TABLE Category (
+	`id` int AUTO_INCREMENT NOT NULL,
+	`category_type` varchar(12),
+	`version` integer,
+	`document_type` integer,
+	`description` varchar(100),
+	`status` char(1),
+	`start_date` date,
+	`end_date` date,
+	`created` date,
+	primary key(`id`)
+);*/
+/*
+insert into Category (
+
+	`created`
+) values
+('emp_tpp', 1, 1, 'pracovná zmluva TPP', 'A', '2023-03-01', '2999-12-31', '2023-02-26 08:10:00'),
+('emp_tmp', 1, 1, 'dohoda o vykonaní práce', 'A', '2023-03-01', '2999-12-31', '2023-02-27 08:10:00'),
+('emp_hom', 1, 1, 'telepráca', 'A', '2023-03-07', '2999-12-31', '2023-02-28 08:10:00'),
+('bill_partner', 1, 2, 'faktúra-obch.partner', 'A', '2023-03-01', '2999-12-31', '2023-03-01 08:10:00'),
+('bill_energy', 1, 2, 'faktúra-prevádzka', 'A', '2023-03-01', '2999-12-31', '2023-03-02 08:10:00'),
+('bill_other', 1, 2, 'faktúra-ostatné', 'A', '2023-03-01', '2999-12-31', '2023-03-03 08:10:00'),
+('order_ext', 1, 6, 'objednávky-externé', 'A', '2023-03-01', '2999-12-31', '2023-03-04 08:10:00'),
+('order_int', 1, 6, 'objednávky-interné', 'A', '2023-03-01', '2999-12-31', '2023-03-05 08:10:00'),
+('order_other', 1, 6, 'objednávky-obch.partner', 'A', '2023-03-01', '2999-12-31', '2023-03-06 08:10:00'),
+('video_int', 1, 4, 'videozáznam-interné porady', 'A', '2023-03-01', '2999-12-31', '2023-03-07 08:10:00'),
+('video_ext', 1, 4, 'reklamné videa', 'A', '2023-03-01', '2999-12-31', '2023-03-08 08:10:00'),
+('video_other', 1, 4, 'videa ostatné', 'A', '2023-03-01', '2999-12-31', '2023-03-09 10:10:00'),
+('doc_duty', 1, 7, 'colná dokumentácia', 'A', '2023-03-01', '2999-12-31', '2023-03-10 10:10:00'),
+('doc_partner', 1, 8, 'obchodná korešpondencia', 'A', '2023-03-01', '2999-12-31', '2023-03-11 10:10:00'),
+('doc_other', 1, 9, 'ostatná korešpondencia', 'A', '2023-03-01', '2999-12-31', '2023-03-12 10:10:00'),
+('list_bank', 1, 3, 'bankové výpisy', 'A', '2023-03-01', '2999-12-31', '2023-03-13 10:10:00'),
+('fin_report', 1, 10, 'financné ukazovatele', 'A', '2023-03-01', '2999-12-31', '2023-03-14 10:10:00'),
+('fin_pl', 1, 10, 'rozpočet', 'C', '2023-01-01', '2023-01-31', '2023-01-31 00:00:00');
+*/
+/*CREATE TABLE Sections (
+	`section_id` int AUTO_INCREMENT NOT NULL,
+	`section_code` integer,
+	`section_name` varchar(6),
+	`stand_id` integer,
+	`stand_name` varchar(6),
+	`location_id` varchar(6),
+	`created` datetime,
+	primary key(`section_id`)
+);
+*/
+/*
+CREATE TABLE Location (
+	`location_id` int AUTO_INCREMENT NOT NULL,
+	`loc_name` varchar(30),
+	`loc_address` varchar(200),
+	`created` datetime,
+	primary key(`location_id`)
+);
+*/
+/*
+CREATE TABLE EMP (
+	`emp_id` int AUTO_INCREMENT NOT NULL,
+	`name` varchar(20),
+	`surname` varchar(80),
+	`position` varchar(30),
+	`branch` varchar(100),
+	`status` char(2),
+	`work_from` date,
+	`work_to` date,
+	`created` datetime,
+	primary key(`emp_id`)
+);
+*/
+/*
+CREATE TABLE Archive_Store (
+	`arch_id` int AUTO_INCREMENT NOT NULL,
+	`doc_id` integer,
+	`doc_name` varchar(50),
+	`loc_id` integer,
+	`category_desc` varchar(100),
+	`section_code` integer,
+	`section_name` varchar(30),
+	`emp_id` int,
+	`name` varchar(20),
+	`descrtiption` varchar(100),
+	`archive_date` date,
+	`created` datetime,
+	primary key(`arch_id`)
+);
+*/
+/*
+CREATE TABLE History_Archive (
+	`arch_id` int AUTO_INCREMENT NOT NULL,
+	`history_date` date,
+	`doc_id` integer,
+	`doc_name` varchar(50),
+	`loc_id` integer,
+	`category_desc` varchar(100),
+	`section_code` integer,
+	`section_name` varchar(30),
+	`emp_id` int,
+	`emp_name` varchar(20),
+	`descrtiption` varchar(100),
+	`archive_date` date,
+	`created` datetime,
+	primary key(`arch_id`)
+);
+*/
