@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diagram version="1" name="ER_Diagram_01">
+	<entities>
+		<data-source id="mysql8-186e1dd4413-7ad42fe858fdf8bd">
+			<entity id="1" name="Access_Level" fq-name="PEVS_MoJaMa.Access_Level">
+				<path name="PEVS_MoJaMa"/>
+			</entity>
+			<entity id="2" name="Archive" fq-name="PEVS_MoJaMa.Archive">
+				<path name="PEVS_MoJaMa"/>
+			</entity>
+			<entity id="3" name="Archive_deleted" fq-name="PEVS_MoJaMa.Archive_deleted">
+				<path name="PEVS_MoJaMa"/>
+			</entity>
+			<entity id="4" name="Department" fq-name="PEVS_MoJaMa.Department">
+				<path name="PEVS_MoJaMa"/>
+			</entity>
+			<entity id="5" name="Document" fq-name="PEVS_MoJaMa.Document">
+				<path name="PEVS_MoJaMa"/>
+			</entity>
+			<entity id="6" name="Document_Types" fq-name="PEVS_MoJaMa.Document_Types">
+				<path name="PEVS_MoJaMa"/>
+			</entity>
+			<entity id="7" name="Employee" fq-name="PEVS_MoJaMa.Employee">
+				<path name="PEVS_MoJaMa"/>
+			</entity>
+			<entity id="8" name="Location" fq-name="PEVS_MoJaMa.Location">
+				<path name="PEVS_MoJaMa"/>
+			</entity>
+			<entity id="9" name="Section" fq-name="PEVS_MoJaMa.`Section`">
+				<path name="PEVS_MoJaMa"/>
+			</entity>
+			<entity id="10" name="ADMINISTRABLE_ROLE_AUTHORIZATIONS" fq-name="information_schema.ADMINISTRABLE_ROLE_AUTHORIZATIONS">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="11" name="APPLICABLE_ROLES" fq-name="information_schema.APPLICABLE_ROLES">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="12" name="CHARACTER_SETS" fq-name="information_schema.CHARACTER_SETS">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="13" name="CHECK_CONSTRAINTS" fq-name="information_schema.CHECK_CONSTRAINTS">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="14" name="CLIENT_STATISTICS" fq-name="information_schema.CLIENT_STATISTICS">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="15" name="COLLATIONS" fq-name="information_schema.COLLATIONS">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="16" name="COLLATION_CHARACTER_SET_APPLICABILITY" fq-name="information_schema.COLLATION_CHARACTER_SET_APPLICABILITY">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="17" name="COLUMNS" fq-name="information_schema.`COLUMNS`">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="18" name="COLUMNS_EXTENSIONS" fq-name="information_schema.COLUMNS_EXTENSIONS">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="19" name="COLUMN_PRIVILEGES" fq-name="information_schema.COLUMN_PRIVILEGES">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="20" name="COLUMN_STATISTICS" fq-name="information_schema.COLUMN_STATISTICS">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="21" name="COMPRESSION_DICTIONARY" fq-name="information_schema.COMPRESSION_DICTIONARY">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="22" name="COMPRESSION_DICTIONARY_TABLES" fq-name="information_schema.COMPRESSION_DICTIONARY_TABLES">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="23" name="ENABLED_ROLES" fq-name="information_schema.ENABLED_ROLES">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="24" name="ENGINES" fq-name="information_schema.ENGINES">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="25" name="EVENTS" fq-name="information_schema.EVENTS">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="26" name="FILES" fq-name="information_schema.FILES">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="27" name="GLOBAL_TEMPORARY_TABLES" fq-name="information_schema.GLOBAL_TEMPORARY_TABLES">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="28" name="INDEX_STATISTICS" fq-name="information_schema.INDEX_STATISTICS">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="29" name="INNODB_BUFFER_PAGE" fq-name="information_schema.INNODB_BUFFER_PAGE">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="30" name="INNODB_BUFFER_PAGE_LRU" fq-name="information_schema.INNODB_BUFFER_PAGE_LRU">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="31" name="INNODB_BUFFER_POOL_STATS" fq-name="information_schema.INNODB_BUFFER_POOL_STATS">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="32" name="INNODB_CACHED_INDEXES" fq-name="information_schema.INNODB_CACHED_INDEXES">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="33" name="INNODB_CHANGED_PAGES" fq-name="information_schema.INNODB_CHANGED_PAGES">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="34" name="INNODB_CMP" fq-name="information_schema.INNODB_CMP">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="35" name="INNODB_CMPMEM" fq-name="information_schema.INNODB_CMPMEM">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="36" name="INNODB_CMPMEM_RESET" fq-name="information_schema.INNODB_CMPMEM_RESET">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="37" name="INNODB_CMP_PER_INDEX" fq-name="information_schema.INNODB_CMP_PER_INDEX">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="38" name="INNODB_CMP_PER_INDEX_RESET" fq-name="information_schema.INNODB_CMP_PER_INDEX_RESET">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="39" name="INNODB_CMP_RESET" fq-name="information_schema.INNODB_CMP_RESET">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="40" name="INNODB_COLUMNS" fq-name="information_schema.INNODB_COLUMNS">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="41" name="INNODB_DATAFILES" fq-name="information_schema.INNODB_DATAFILES">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="42" name="INNODB_FIELDS" fq-name="information_schema.INNODB_FIELDS">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="43" name="INNODB_FOREIGN" fq-name="information_schema.INNODB_FOREIGN">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="44" name="INNODB_FOREIGN_COLS" fq-name="information_schema.INNODB_FOREIGN_COLS">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="45" name="INNODB_FT_BEING_DELETED" fq-name="information_schema.INNODB_FT_BEING_DELETED">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="46" name="INNODB_FT_CONFIG" fq-name="information_schema.INNODB_FT_CONFIG">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="47" name="INNODB_FT_DEFAULT_STOPWORD" fq-name="information_schema.INNODB_FT_DEFAULT_STOPWORD">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="48" name="INNODB_FT_DELETED" fq-name="information_schema.INNODB_FT_DELETED">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="49" name="INNODB_FT_INDEX_CACHE" fq-name="information_schema.INNODB_FT_INDEX_CACHE">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="50" name="INNODB_FT_INDEX_TABLE" fq-name="information_schema.INNODB_FT_INDEX_TABLE">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="51" name="INNODB_INDEXES" fq-name="information_schema.INNODB_INDEXES">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="52" name="INNODB_METRICS" fq-name="information_schema.INNODB_METRICS">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="53" name="INNODB_SESSION_TEMP_TABLESPACES" fq-name="information_schema.INNODB_SESSION_TEMP_TABLESPACES">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="54" name="INNODB_TABLES" fq-name="information_schema.INNODB_TABLES">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="55" name="INNODB_TABLESPACES" fq-name="information_schema.INNODB_TABLESPACES">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="56" name="INNODB_TABLESPACES_BRIEF" fq-name="information_schema.INNODB_TABLESPACES_BRIEF">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="57" name="INNODB_TABLESPACES_ENCRYPTION" fq-name="information_schema.INNODB_TABLESPACES_ENCRYPTION">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="58" name="INNODB_TABLESPACES_SCRUBBING" fq-name="information_schema.INNODB_TABLESPACES_SCRUBBING">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="59" name="INNODB_TABLESTATS" fq-name="information_schema.INNODB_TABLESTATS">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="60" name="INNODB_TEMP_TABLE_INFO" fq-name="information_schema.INNODB_TEMP_TABLE_INFO">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="61" name="INNODB_TRX" fq-name="information_schema.INNODB_TRX">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="62" name="INNODB_VIRTUAL" fq-name="information_schema.INNODB_VIRTUAL">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="63" name="KEYWORDS" fq-name="information_schema.KEYWORDS">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="64" name="KEY_COLUMN_USAGE" fq-name="information_schema.KEY_COLUMN_USAGE">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="65" name="OPTIMIZER_TRACE" fq-name="information_schema.OPTIMIZER_TRACE">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="66" name="PARAMETERS" fq-name="information_schema.PARAMETERS">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="67" name="PARTITIONS" fq-name="information_schema.PARTITIONS">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="68" name="PLUGINS" fq-name="information_schema.PLUGINS">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="69" name="PROCESSLIST" fq-name="information_schema.PROCESSLIST">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="70" name="PROFILING" fq-name="information_schema.PROFILING">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="71" name="REFERENTIAL_CONSTRAINTS" fq-name="information_schema.REFERENTIAL_CONSTRAINTS">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="72" name="RESOURCE_GROUPS" fq-name="information_schema.RESOURCE_GROUPS">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="73" name="ROLE_COLUMN_GRANTS" fq-name="information_schema.ROLE_COLUMN_GRANTS">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="74" name="ROLE_ROUTINE_GRANTS" fq-name="information_schema.ROLE_ROUTINE_GRANTS">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="75" name="ROLE_TABLE_GRANTS" fq-name="information_schema.ROLE_TABLE_GRANTS">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="76" name="ROUTINES" fq-name="information_schema.ROUTINES">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="77" name="SCHEMATA" fq-name="information_schema.SCHEMATA">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="78" name="SCHEMATA_EXTENSIONS" fq-name="information_schema.SCHEMATA_EXTENSIONS">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="79" name="SCHEMA_PRIVILEGES" fq-name="information_schema.SCHEMA_PRIVILEGES">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="80" name="STATISTICS" fq-name="information_schema.STATISTICS">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="81" name="ST_GEOMETRY_COLUMNS" fq-name="information_schema.ST_GEOMETRY_COLUMNS">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="82" name="ST_SPATIAL_REFERENCE_SYSTEMS" fq-name="information_schema.ST_SPATIAL_REFERENCE_SYSTEMS">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="83" name="ST_UNITS_OF_MEASURE" fq-name="information_schema.ST_UNITS_OF_MEASURE">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="84" name="TABLES" fq-name="information_schema.TABLES">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="85" name="TABLESPACES" fq-name="information_schema.TABLESPACES">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="86" name="TABLESPACES_EXTENSIONS" fq-name="information_schema.TABLESPACES_EXTENSIONS">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="87" name="TABLES_EXTENSIONS" fq-name="information_schema.TABLES_EXTENSIONS">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="88" name="TABLE_CONSTRAINTS" fq-name="information_schema.TABLE_CONSTRAINTS">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="89" name="TABLE_CONSTRAINTS_EXTENSIONS" fq-name="information_schema.TABLE_CONSTRAINTS_EXTENSIONS">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="90" name="TABLE_PRIVILEGES" fq-name="information_schema.TABLE_PRIVILEGES">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="91" name="TABLE_STATISTICS" fq-name="information_schema.TABLE_STATISTICS">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="92" name="TEMPORARY_TABLES" fq-name="information_schema.TEMPORARY_TABLES">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="93" name="THREAD_STATISTICS" fq-name="information_schema.THREAD_STATISTICS">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="94" name="TRIGGERS" fq-name="information_schema.TRIGGERS">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="95" name="USER_ATTRIBUTES" fq-name="information_schema.USER_ATTRIBUTES">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="96" name="USER_PRIVILEGES" fq-name="information_schema.USER_PRIVILEGES">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="97" name="USER_STATISTICS" fq-name="information_schema.USER_STATISTICS">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="98" name="VIEWS" fq-name="information_schema.VIEWS">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="99" name="VIEW_ROUTINE_USAGE" fq-name="information_schema.VIEW_ROUTINE_USAGE">
+				<path name="information_schema"/>
+			</entity>
+			<entity id="100" name="VIEW_TABLE_USAGE" fq-name="information_schema.VIEW_TABLE_USAGE">
+				<path name="information_schema"/>
+			</entity>
+		</data-source>
+	</entities>
+	<relations>
+		<relation name="Location_FK" fq-name="PEVS_MoJaMa.Location.Location_FK" type="fk" pk-ref="1" fk-ref="8"/>
+		<relation name="Employee_FK" fq-name="PEVS_MoJaMa.Employee.Employee_FK" type="fk" pk-ref="4" fk-ref="7"/>
+		<relation name="Archive_FK" fq-name="PEVS_MoJaMa.Archive.Archive_FK" type="fk" pk-ref="5" fk-ref="2"/>
+		<relation name="Document_FK" fq-name="PEVS_MoJaMa.Document.Document_FK" type="fk" pk-ref="6" fk-ref="5"/>
+		<relation name="Document_FK_1" fq-name="PEVS_MoJaMa.Document.Document_FK_1" type="fk" pk-ref="6" fk-ref="5"/>
+		<relation name="Archive_FK_1" fq-name="PEVS_MoJaMa.Archive.Archive_FK_1" type="fk" pk-ref="7" fk-ref="2"/>
+		<relation name="Section_FK" fq-name="PEVS_MoJaMa.`Section`.Section_FK" type="fk" pk-ref="8" fk-ref="9"/>
+		<relation name="Archive_FK_2" fq-name="PEVS_MoJaMa.Archive.Archive_FK_2" type="fk" pk-ref="9" fk-ref="2"/>
+	</relations>
+</diagram>
