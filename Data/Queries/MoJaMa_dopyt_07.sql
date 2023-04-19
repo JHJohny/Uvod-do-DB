@@ -7,18 +7,18 @@ SELECT
 FROM 
 (
 SELECT 
-	Location.description AS 'Location',
-	CONCAT(Employee.first_name, " ", Employee.last_name) AS 'Referent'
+	location.description AS 'Location',
+	CONCAT(employee.first_name, " ", employee.last_name) AS 'Referent'
 FROM 
-	Location, Employee
-WHERE Employee.access_obtained = Location.security_level_access 
+	location, employee
+WHERE employee.access_obtained = location.security_level_access 
 AND 
-	Employee.emp_id NOT IN (
+	employee.emp_id NOT IN (
 		SELECT 
-			Employee.emp_id 
+			employee.emp_id 
 		FROM 
-			Employee
-		WHERE Employee.work_to IS NOT NULL
+			employee
+		WHERE employee.work_to IS NOT NULL
 	)
 	
 ) t
