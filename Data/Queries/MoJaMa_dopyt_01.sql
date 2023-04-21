@@ -1,7 +1,7 @@
 /*
- * Getting last 20 Archive inventory from the newest to oldest archivation
+ * Getting Archive inventory from the newest to oldest archivation
  */
-SELECT 
+SELECT
 	document.doc_name AS 'Document name',
 	archive.comment AS 'Document comment',
 	CONCAT(employee.first_name, " ", employee.last_name) AS 'Referent',
@@ -21,4 +21,3 @@ INNER JOIN location ON section.location_id = location.location_id
 INNER JOIN access_level ON location.security_level_access = access_level.access_level
 INNER JOIN archive_code ON archive.arch_code = archive_code.archive_code
 ORDER BY archivation_date DESC
-LIMIT 20;
