@@ -19,7 +19,7 @@ Jan Ondis - rozdelenie a kontrolovanie uloh, naplnenie databazy dummy datmi, tri
 Monika Ruzickova Kucerova - navrh a vytvorenie tabuliek.✅
 
 Martin Chabada - Dopyty, useri, views. ❌
-
+Veduci tyzden pred terminom zrusil pristup do databazy a prestal komunikovat. Tu nemam umoznene upload file takze posielam moje vypracovane ulohy priamo do UIS aj s mojou kopiou databazy.
 
 ## Opisanie databazy
 ### Bussiness logika
