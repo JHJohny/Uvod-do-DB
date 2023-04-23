@@ -18,7 +18,7 @@ Jan Ondis - rozdelenie a kontrolovanie uloh, naplnenie databazy dummy datmi, tri
 
 Monika Ruzickova Kucerova - navrh a vytvorenie tabuliek.✅
 
-Martin Chabada - Dopyty, useri, views. ❌
+Martin Chabada - Dopyty, useri, views. ✅
 
 
 ## Opisanie databazy
@@ -32,6 +32,9 @@ V pripade, ze archivar bude mat noveho kolegu, ktory sa este stale len zaskoluje
 Do databazy budu taktiez pristupovat aj backendove aplikacie. Tieto aplikacie maju pristup iba na citanie dat, nakolko sa ocakava, ze akakolvek interakcia s archivom je za pritomnosti archivera a iba on po archivacii dokumentu vytvori zaznam v databaze.
 
 Archiver je zodpovedny za pridelovanie pristupu do archivu - ku dokumentom. Kazda lokacia vyzaduje urcity security pristup, ktory archiver musi skontrolovat. Pre zobrazenie tohto pristupu su vytvorene 2 dopyty.
+
+### Role / Uzivatelia
+Kedze projekt robeny vo websupport, ktory neumoznuje ich spravu pomocou prikazou a role vobec. Takze vytvoreni len uzivatelia cez GUI s roznymi pravami.
 
 ### Struktura tabuliek
 Jadrom/hlavnou tabulkou je 'archive' ktora obsahuje zaznami o archivacii. Kazdy zaznam nasledne odkazuje na data z tychto 3 kategorii:
